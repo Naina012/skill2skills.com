@@ -1,85 +1,80 @@
+/* about.css */
+
 .aboutHome {
+  padding:  0; 
+  background-color: #d4d6d8; 
+}
+
+.about-container {
+  max-width: 1200px; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-left img {
+  max-width: 100%;
   height: auto;
 }
-.aboutHome #heading {
-  text-align: left;
-  padding: 0;
+
+.about-right {
+  max-width: 600px; 
+  flex-grow: 1;
+  padding-right: 0px; 
 }
-.aboutHome .left img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+
+.about-items {
+  margin-top: 0px; 
 }
-.aboutHome .right {
-  padding: 80px 50px;
+
+.about-item {
+  margin-bottom: 20px; 
+  padding: 15px; 
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
 }
-.aboutHome .items {
-  margin-top: 50px;
+
+.about-item:hover {
+  background-color: #ffffff;
+  color: #478ac9;
 }
-.aboutHome .item {
-  background-color: #fff;
-  margin-top: 30px;
-  padding: 20px;
-  transition: 0.5s;
+
+.about-text h2 {
+  font-size: 20px; 
+  margin-bottom: 0px;
+  color: #478ac9;
 }
-.aboutHome .img {
-  width: 200px;
+
+.about-text p {
+  font-size: 16px; 
+  line-height: 1.5;
+  color: #000000;
 }
-.aboutHome img {
-  width: 70px;
-  height: 70px;
-}
-.aboutHome .item h2 {
-  font-size: 25px;
-  margin-bottom: 15px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.aboutHome .item p {
-  color: #999999;
-}
-.aboutHome .item:hover {
-  background-color: #478ac9;
-  color: #fff;
-  cursor: pointer;
-  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
-}
-.aboutHome .item:hover p {
-  color: #fff;
-}
-/*----------awrapper------------*/
-.awrapper {
-  /* background-image: url("../../assets/blog.webp"); */
-  background-color: #478ac9;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 30vh;
-  color: #fff;
-}
-.awrapper .box {
-  padding: 0px 0;
-}
-.awrapper img {
-  margin-right: 30px;
-}
-.awrapper h1 {
-  font-size: 40px;
-}
-.awrapper h3 {
-  font-size: 20px;
-  font-weight: 500;
-}
-/*----------awrapper------------*/
+
+/* Responsive styles */
 @media screen and (max-width: 768px) {
-  .aboutHome .container {
-    flex-direction: column-reverse;
+  .about-container {
+    flex-direction: column;
+    align-items: center;
   }
-  .aboutHome .row {
-    width: 100%;
+
+  .about-right {
+    padding: 0px 0;
+    text-align: center;
   }
-  .awrapper {
-    height: 50vh;
+
+  
+
+  .about-item {
+    width: 100%; /* Make the items full-width on smaller screens */
+  }
+
+  .about-text h2 {
+    font-size: 18px; /* Adjusted font size for better readability on smaller screens */
+  }
+
+  .about-text p {
+    font-size: 14px; /* Adjusted font size for better readability on smaller screens */
   }
 }
-
-

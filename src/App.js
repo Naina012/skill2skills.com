@@ -1,5 +1,6 @@
 import "./App.css"
-import Header from "./components/header/Header"
+// import Header from "./components/header/Header"
+import Navbar from "./components/Navbar/Navbar"
 import { Routes, Route } from "react-router-dom"
 import About from "./components/about/About"
 
@@ -29,7 +30,8 @@ function App() {
   return (
     <>
       
-        <Header />
+        
+        <Navbar/>
         
         <Routes>
           <Route exact path='/*' element={<Home/>} />

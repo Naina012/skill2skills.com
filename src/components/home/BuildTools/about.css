@@ -10,7 +10,7 @@
     padding-top: 50px;
     padding-bottom: 20px;
     font-weight: bold;
-    color: #333;
+    color: #478ac9;
 }
 
 .headerContent {
@@ -22,9 +22,8 @@
     list-style: none;
     padding: 0;
     text-align: left;
-    margin-top: 20px; /* Adjust the margin-top to your preference */
-    margin-bottom: 30px; /* Add margin to control space below the list */
-}
+    margin-top: 20px; 
+    margin-bottom: 30px; }
 
 .features-list li {
     margin-bottom: 15px;

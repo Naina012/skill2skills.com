@@ -1,12 +1,16 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // Import the CSS for AOS
+import 'aos/dist/aos.css'; 
 import img from "../../../assets/images/hommiii.png"
 import "./about.css"
 import { Link } from "react-router-dom"
+
+
+
+
 const About = () => {
     useEffect(() => {
-        AOS.init(); // Initialize AOS library
+        AOS.init(); 
     }, []);
 
     return (
@@ -15,7 +19,7 @@ const About = () => {
             <div className="row col-md-11 mx-auto">
                 
                     <div className="col-md-6 img" data-aos="fade-right" data-aos-duration="2000">
-                        {/* You can add an image related to your task management system here */}
+                        
                         <img src={img} alt="" className="img-fluid image-homi"/>
                     </div>
                     <div className="col-md-6 ps-2" data-aos="fade-left" data-aos-duration="2000">

@@ -8,7 +8,7 @@ import Heading from "../heading/Heading"
 import "aos/dist/aos.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "./Testimonial.css"; // This file now contains the updated CSS
+import "./Testimonial.css"; 
 
 const Testimonial = () => {
   useEffect(() => {
@@ -18,7 +18,7 @@ const Testimonial = () => {
   return (
     <section className="testimonial-container">
       <div className="testinomial-container">
-        <Heading subtitle="TESTIMONIAL" title="Our Successful Students" />
+        <Heading subtitle="TESTIMONIAL" title="Our Successful Students"  />
 
         <div className="testimonial-carousel">
           <Carousel showThumbs={false} infiniteLoop autoPlay interval={2000}>

@@ -1,4 +1,4 @@
-/* Faq.css */
+
 .faq-container {
   text-align: center;
   padding: 20px;
@@ -60,7 +60,7 @@
 
 .faq-accordion.active + .faq-text {
   display: block;
-  max-height: 1000px; /* Set a suitable max-height value */
+  max-height: 1000px; 
   opacity: 1;
 }
 
@@ -76,5 +76,5 @@
 }
 
 .question:hover {
-  color: #007bff; /* Change to your desired hover color */
+  color: #007bff; 
 }

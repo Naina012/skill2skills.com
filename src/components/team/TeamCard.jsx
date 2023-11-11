@@ -12,7 +12,7 @@ const TeamCard = () => {
             <div className="overlay">
             <i className="fab fa-google icon"></i> 
 
-              {/* Add other social media icons here */}
+              
             </div>
           </div>
           <div className="team-details">

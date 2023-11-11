@@ -1,0 +1,42 @@
+/* awrapper.css */
+
+.awrapper {
+  padding: 20px;
+}
+
+.awrapper-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+  gap: 20px;
+}
+
+.awrapper-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.awrapper-img img {
+  max-width: 90%;
+  height: auto;
+}
+
+.awrapper-text {
+  padding: 20px;
+  
+}
+.awrapper h1 {
+  font-size: 30px;
+}
+.awrapper h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Add media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .awrapper-container {
+    grid-template-columns: 1fr;
+  }
+}

@@ -20,7 +20,7 @@ const Back = ({ title }) => {
     window.scrollTo(0, 0);
   }, []);
 
-  // Define a mapping of location.pathname to background images
+
   const backgroundImages = {
     "/about": require("../../assets/background.png"),
     
@@ -39,7 +39,7 @@ const Back = ({ title }) => {
     "/haryana": require("../../assets/bk_4.webp"),
     "/mp": require("../../assets/bk_7.webp"),
     "/assam": require("../../assets/project.webp"),
-    // Add more path-to-image mappings here
+    
   };
 
   const backgroundImage = backgroundImages[location.pathname] || require("../../assets/background.png");
@@ -50,12 +50,12 @@ const Back = ({ title }) => {
     backgroundAttachment: "fixed",
   };
 
-  // Define a mapping of location.pathname to text colors
+  
   const textColors = {
-    "/about": "#000000",   // Change this color to your desired color
+    "/about": "#000000",  
     "/gallery": "#ffffff",
     "/contact": "#ffffff",
-    "/blog": "#ffffff",
+    "/blog": "rgb(71, 138, 201)",
     "/team": "#000000",
     "/project": "#000000",
     "/nulm": "#000000",
@@ -68,11 +68,10 @@ const Back = ({ title }) => {
     "/haryana": "#ffffff",
     "/mp": "#000000",
     "/assam": "#000000",
-    // Add more path-to-color mappings here
+   
   };
 
-  const textColor = textColors[location.pathname] || "#000"; // Default to black if no match found
-
+  const textColor = textColors[location.pathname] || "#000"; 
   const titleStyle = {
     color: textColor,
   };

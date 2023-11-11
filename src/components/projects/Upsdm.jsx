@@ -14,16 +14,16 @@ const Upsdm = () => {
   return (
     <>
     <Back title='Uttar Pradesh Skill Development Mission (UPSDM)' />
-    <section id='Project'> {/* Updated section id */}
-      {/* <h2 className='project-title'>Deen Dayal Upadhyaya Grameen Kaushalya Yojana</h2> */}
+    <section id='Project'> 
+      
 
-      <div className="project-container"> {/* Updated container class */}
-        <div className="project-image"> {/* Updated class name */}
-          <div className="project-image-inner"> {/* Added a new div for hover effect */}
+      <div className="project-container"> 
+        <div className="project-image"> 
+          <div className="project-image-inner"> 
             <img src={about} alt="Project-img" />
           </div>
         </div>
-        <div className="project-content"> {/* Updated class name */}
+        <div className="project-content"> 
           <p>
           In 2009, India launched a National Skill Development Policy with the ambitious objective of equipping 500 million individuals with essential skills by the year 2022. Uttar Pradesh, as part of this national initiative, has set its sights on imparting employable skills to more than 4 million young people by the culmination of the 12th Five Year Plan
           </p>

@@ -15,17 +15,15 @@ const Nulm = () => {
     <>
     <Back title='National Urban Livelihood Missionnpm start (NULM)
     ' />
-    <section id='Project'> {/* Updated section id */}
-      {/* <h2 className='project-title'>Deen Dayal Upadhyaya Grameen Kaushalya Yojana</h2> */}
-
-      <div className="project-container"> {/* Updated container class */}
-        <div className="project-image"> {/* Updated class name */}
-          <div className="project-image-inner"> {/* Added a new div for hover effect */}
+    <section id='Project'> 
+      <div className="project-container"> 
+        <div className="project-image"> 
+          <div className="project-image-inner"> 
           <img src={about} alt="Project-img" />
 
           </div>
         </div>
-        <div className="project-content"> {/* Updated class name */}
+        <div className="project-content"> 
           <p>
           The Employment through Skills Training & Placement (EST&P) Component, part of the National Urban Livelihood Mission (NULM), is strategically designed to cater to the needs of unskilled urban residents while also enhancing the capabilities of those with existing skills. 
           </p>
@@ -44,14 +42,14 @@ to endow urban underprivileged individuals with valuable skills, providing them 
               </p>
             </>
           )}
-          <div className="project-expand-button"> {/* Updated class name */}
+          <div className="project-expand-button"> 
             <button onClick={toggleExpand}>
               {expanded ? "Read Less" : "Read More"}
             </button>
           </div>
         </div>
       </div>
-      <div className='project-lastp'> {/* Updated class name */}
+      <div className='project-lastp'> 
         {/* <h2>Projects Under NULM Scheme:</h2>
         <ul>
           <li>Project 1: Description of the first project.</li>

@@ -2,17 +2,14 @@ import React from "react"
 
 import "./Hero.css"
 import { useState, useEffect } from 'react';
-// import hero1 from "../../images/Hero1.png";
-import hero1 from "../../assets/Home.png"
+
+import hero1 from "../../assets/Hero.png"
 
 
 import { Link } from "react-router-dom";
 
 import "./Hero.css";
-import "../vendor/animate.css/animate.min.css";
-import "../vendor/aos/aos.css";
-import "../vendor/bootstrap/css/bootstrap.min.css";
-import "../vendor/bootstrap-icons/bootstrap-icons.css";
+
 
 
 // import hero1 from "../"
@@ -127,7 +124,7 @@ const Hero = () => {
     return slides.map((_, index) => (
       <li
         key={index}
-        data-bs-target="#heroCarousel"
+        data-bs-target="#herocarousell"
         data-bs-slide-to={index}
         className={index === activeIndex ? "active" : ""}
       ></li>
@@ -138,19 +135,19 @@ const Hero = () => {
     return (
       <section id="hero">
         <div
-          id="heroCarousel"
-          className="carousel slide carousel-fade"
-          data-bs-ride="carousel"
+          id="herocarousell"
+          className="carousell slide carousell-fade"
+          data-bs-ride="carousell"
         >
-          <div className="carousel-inner" role="listbox">
+          <div className="carousell-inner" role="listbox">
             {slides.map((slide, index) => (
               <div
                 key={index}
-                className={`carousel-item ${index === activeIndex ? "active" : ""}`}
+                className={`carousell-item ${index === activeIndex ? "active" : ""}`}
                 style={{ backgroundImage: `url(${slide.image})` }}
               >
-                <div className="carousel-container">
-                  <div className="carousel-content animate__animated animate__fadeInUp">
+                <div className="carousell-container">
+                  <div className="carousell-content animate__animated animate__fadeInUp">
                     <h2>{slide.title}</h2>
                     <div dangerouslySetInnerHTML={{ __html: slide.description }}></div>
                     <div className="text-center">
@@ -165,32 +162,32 @@ const Hero = () => {
           </div>
   
           <a
-            className="carousel-control-prev"
-            href="#heroCarousel"
+            className="carousell-control-prev"
+            href="#herocarousell"
             role="button"
             data-bs-slide="prev"
             onClick={() => setActiveIndex((activeIndex - 1 + slides.length) % slides.length)}
           >
             <span
-              className="carousel-control-prev-icon bi bi-chevron-left"
+              className="carousell-control-prev-icon bi bi-chevron-left"
               aria-hidden="true"
             ></span>
           </a>
   
           <a
-            className="carousel-control-next"
-            href="#heroCarousel"
+            className="carousell-control-next"
+            href="#herocarousell"
             role="button"
             data-bs-slide="next"
             onClick={nextSlide}
           >
             <span
-              className="carousel-control-next-icon bi bi-chevron-right"
+              className="carousell-control-next-icon bi bi-chevron-right"
               aria-hidden="true"
             ></span>
           </a>
   
-          <ol className="carousel-indicators" id="hero-carousel-indicators">
+          <ol className="carousell-indicators" id="hero-carousell-indicators">
             {renderIndicators()}
           </ol>
         </div>

@@ -76,13 +76,13 @@ export const homeAbout = [
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
     title: "Our Path",
-    desc: "Skill2Skills was founded in 2017 to begin working to connect this wealth of knowledge.We are working in close coordination with prestigious national level incubator namely IIT Mandi – CATALYST, to bridge the skill gap. An ISO 9001:2015 certified, DPIIT recognized firm got recognition from Ministry of Commerce and Industries, GOI & Department of Industries, Himachal Pradesh, respectively. "
+    desc: "Skill2Skills was founded in 2017 to begin working to connect this wealth of knowledge.We are working in close coordination with prestigious national level incubator namely IIT Mandi – CATALYST, to bridge the skill gap."
   },
   {
     id: 2,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
     title: "Our Unique Approach",
-    desc: "Skills and knowledge form the dynamic engines propelling a nation towards economic prosperity and social advancement. Our actions are intricately intertwined with our key objectives, and the Skill Mission of India, harmonising our efforts to shape a brighter future.With our approach, we do not only train our employees; We raise future leaders and innovators. By focusing on both skills and knowledge, we create professionals who are ready to succeed in the workplace.We are aware that an organisation is only as strong as its employees. That's why we're committed to providing our employees with the tools they need to succeed by creating an environment where growth and innovation are the norm. Together with our partners, we create a future where people and organisations thrive."
+    desc: "Skills and knowledge form the dynamic engines propelling a nation towards economic prosperity and social advancement. Our actions are intricately intertwined with our key objectives, and the Skill Mission of India, harmonising our efforts to shape a brighter future.With our approach, we do not only train our employees; We raise future leaders and innovators. By focusing on both skills and knowledge, we create professionals who are ready to succeed in the workplace."
   },
   {
     id: 3,
@@ -101,23 +101,23 @@ export const homeAbout = [
 ]
 export const awrapper = [
   {
-    cover: "https://img.icons8.com/ffffff/80/ffffff/ok--v1.png",
+    cover: "https://img.icons8.com/478ac9/80/478ac9/ok--v1.png",
     data: "500+",
     title: "SUCCESS STORIES",
   },
 
   {
-    cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
+    cover: "https://img.icons8.com/ios/80/478ac9/athlete.png",
     data: "1,500+",
     title: "TOTAL TRAINED",
   },
   {
-    cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
+    cover: "https://img.icons8.com/external-outline-icons-maxicons/80/478ac9/external-calender-insurance-outline-outline-icons-maxicons.png",
     data: "1,000+",
     title: "TOTAL PLACED",
   },
   {
-    cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
+    cover: "https://img.icons8.com/ios/80/478ac9/macbook-idea--v3.png",
     data: "35,000+",
     title: "TOTAL ASSESSMENT.",
   },
@@ -483,28 +483,7 @@ export const gallery = [
   
   
 ]
-export const price = [
-  {
-    name: "BASIC PLAN",
-    price: "49K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-  },
-  {
-    name: "BEGINNER PLAN",
-    price: "79K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-  },
-  {
-    name: "PREMIUM PLAN",
-    price: "109k",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-  },
-  {
-    name: "ULTIMATE PLAN",
-    price: "149K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-  },
-]
+
 export const faq = [
   {
     title: "What is Skill2Skills unique approach to skill development?",

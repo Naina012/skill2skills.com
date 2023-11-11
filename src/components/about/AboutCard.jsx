@@ -10,20 +10,20 @@ const AboutCard = () => {
   return (
     <>
       <section className='aboutHome'>
-        <div className='container flexSB'>
-          <div className='left row'>
+        <div className='about-container flexSB'>
+          <div className='about-left row'>
             <img src={aboutus} alt='' />
           </div>
-          <div className='right row'>
+          <div className='about-right row'>
             <Heading subtitle='Skill2skills' title='Making Skill India Digital' />
-            <div className='items'>
+            <div className='about-items'>
               {homeAbout.map((val) => {
                 return (
-                  <div className='item flexSB'>
+                  <div className='about-item flexSB'>
                     {/* <div className='img'>
                       <img src={val.cover} alt='' />
                     </div> */}
-                    <div className='text'>
+                    <div className='about-text'>
                       <h2>{val.title}</h2>
                       <p>{val.desc}</p>
                     </div>

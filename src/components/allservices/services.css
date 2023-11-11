@@ -118,7 +118,7 @@
   margin: 0 5px;
 }
 
-/* Heading Styling */
+
 .online .heading {
   font-size: 36px;
   margin-bottom: 30px;
@@ -131,7 +131,7 @@
   margin-bottom: 20px;
 }
 
-/* Media Queries */
+
 @media screen and (max-width: 768px) {
   .online .grid3 {
     grid-template-columns: 1fr;

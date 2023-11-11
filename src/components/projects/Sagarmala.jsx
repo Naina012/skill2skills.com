@@ -14,16 +14,15 @@ const Sagarmala = () => {
   return (
     <>
     <Back title='Sagarmala' />
-    <section id='Project'> {/* Updated section id */}
-      {/* <h2 className='project-title'>Deen Dayal Upadhyaya Grameen Kaushalya Yojana</h2> */}
-
-      <div className="project-container"> {/* Updated container class */}
-        <div className="project-image"> {/* Updated class name */}
-          <div className="project-image-inner"> {/* Added a new div for hover effect */}
+    <section id='Project'> 
+      
+      <div className="project-container"> 
+        <div className="project-image"> 
+          <div className="project-image-inner"> 
             <img src={about} alt="Project-img" />
           </div>
         </div>
-        <div className="project-content"> {/* Updated class name */}
+        <div className="project-content"> 
           <p>
           Sagarmala" is a bold and ambitious nationwide endeavor with the objective of catalyzing a significant transformation in India's logistics sector. This transformation will be achieved by fully leveraging the extensive coastline and waterway resources that India possesses. The overarching vision of Sagarmala is to drive down the logistical expenses associated with both domestic and EXIM (Export-Import) cargo by making prudent and strategic investments in infrastructure.
           </p>
@@ -40,21 +39,21 @@ const Sagarmala = () => {
               </p>  */}
             </>
           )}
-          <div className="project-expand-button"> {/* Updated class name */}
+          <div className="project-expand-button"> 
             <button onClick={toggleExpand}>
               {expanded ? "Read Less" : "Read More"}
             </button>
           </div>
         </div>
       </div>
-      <div className='project-lastp'> {/* Updated class name */}
+      <div className='project-lastp'> 
         <h2>The Four Pillars of Sagarmala:</h2>
         <ul>
           <li>Port Modernisation</li>
           <li>Port Connectivity</li>
           <li>Port-led Industrialisation</li>
           <li>Coastal Community Development</li>
-          {/* Add more projects as needed */}
+          
         </ul>
         <p style={{ marginBottom: '15px' }}>
         The overarching goal of the Sagarmala Programme is to minimize the logistics expenditure associated with both EXIM (Export-Import) trade and domestic commerce while requiring only modest infrastructure investments.

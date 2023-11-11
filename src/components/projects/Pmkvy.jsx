@@ -14,16 +14,16 @@ const Pmkvy = () => {
   return (
     <>
     <Back title='Pradhan Mantri Kaushal Vikas Yojana (PMKVY)' />
-    <section id='Project'> {/* Updated section id */}
-      {/* <h2 className='project-title'>Deen Dayal Upadhyaya Grameen Kaushalya Yojana</h2> */}
+    <section id='Project'> 
+     
 
-      <div className="project-container"> {/* Updated container class */}
-        <div className="project-image"> {/* Updated class name */}
-          <div className="project-image-inner"> {/* Added a new div for hover effect */}
+      <div className="project-container"> 
+        <div className="project-image"> 
+          <div className="project-image-inner"> 
             <img src={about} alt="PProject-img" />
           </div>
         </div>
-        <div className="project-content"> {/* Updated class name */}
+        <div className="project-content"> 
           <p>
           The Pradhan Mantri Kaushal Vikas Yojana (PMKVY) serves as the flagship initiative of the Ministry of Skill Development and Entrepreneurship (MSDE), executed in partnership with the National Skill Development Corporation (NSDC). This skill certification program is designed with a clear goal in mind: to empower the youth of India with industry-aligned training, equipping them with the skills needed to secure improved employment opportunities and enhance their livelihoods.
           </p>
@@ -40,20 +40,20 @@ const Pmkvy = () => {
               </p> */}
             </>
           )}
-          <div className="project-expand-button"> {/* Updated class name */}
+          <div className="project-expand-button"> 
             <button onClick={toggleExpand}>
               {expanded ? "Read Less" : "Read More"}
             </button>
           </div>
         </div>
       </div>
-      <div className='project-lastp'> {/* Updated class name */}
+      <div className='project-lastp'> 
         <h2>Skill training will be imparted under three categories, pan-India:</h2>
         <ul>
           <li>Short Term Training (STT)</li>
           <li>Recognition of Prior Learning (RPL)</li>
           <li>Special Project (SP)</li>
-          {/* Add more projects as needed */}
+          
         </ul>
         <p style={{ marginBottom: '15px' }}>
         The scheme comprises two vital components: the Central Component, which will be executed by organizations such as the National Skill Development Corporation (NSDC) and the Directorate General of Training (DGT), and the State Component, which will be managed by the State Skill Development Missions (SSDMs) or the respective Departments of States/Union Territories.

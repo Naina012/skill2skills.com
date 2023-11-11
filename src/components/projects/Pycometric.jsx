@@ -14,16 +14,16 @@ const Pycometric = () => {
   return (
     <>
     <Back title='Psychometric Assessment for Candidate Evaluation' />
-    <section id='Project'> {/* Updated section id */}
+    <section id='Project'> 
       {/* <h2 className='project-title'>Deen Dayal Upadhyaya Grameen Kaushalya Yojana</h2> */}
 
-      <div className="project-container"> {/* Updated container class */}
-        <div className="project-image"> {/* Updated class name */}
-          <div className="project-image-inner"> {/* Added a new div for hover effect */}
+      <div className="project-container"> 
+        <div className="project-image"> 
+          <div className="project-image-inner"> 
             <img src={about} alt="Project-img" />
           </div>
         </div>
-        <div className="project-content"> {/* Updated class name */}
+        <div className="project-content"> 
           <p>
           Skill2Skills has successfully developed and implemented a comprehensive psychometric assessment system for evaluating candidates across various domains. This project, titled "Psychometric Assessment for Candidate Evaluation," aims to provide organizations with a robust tool to make informed decisions regarding candidate selection, placement, and career development.
 
@@ -44,20 +44,20 @@ const Pycometric = () => {
               </p> */}
             </>
           )}
-          <div className="project-expand-button"> {/* Updated class name */}
+          <div className="project-expand-button"> 
             <button onClick={toggleExpand}>
               {expanded ? "Read Less" : "Read More"}
             </button>
           </div>
         </div>
       </div>
-      <div className='project-lastp'> {/* Updated class name */}
+      <div className='project-lastp'> 
         <h2>The different types of psychometric tests include:</h2>
         <ul>
           <li>Aptitude tests</li>
           <li>Skills Tests</li>
           <li>Personality Tests</li>
-          {/* Add more projects as needed */}
+          
         </ul>
         <p style={{ marginBottom: '15px' }}>
         The "Psychometric Assessment for Candidate Evaluation" project by Skill2Skills provides organizations with a powerful tool for identifying and developing talent effectively, ultimately contributing to enhanced workforce productivity and success.

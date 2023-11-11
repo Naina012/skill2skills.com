@@ -14,16 +14,15 @@ const Kaushal = () => {
   return (
     <>
     <Back title='Kaushal Parikshan' />
-    <section id='Project'> {/* Updated section id */}
-      {/* <h2 className='project-title'>Deen Dayal Upadhyaya Grameen Kaushalya Yojana</h2> */}
+    <section id='Project'> 
 
-      <div className="project-container"> {/* Updated container class */}
-        <div className="project-image"> {/* Updated class name */}
-          <div className="project-image-inner"> {/* Added a new div for hover effect */}
+      <div className="project-container"> 
+        <div className="project-image"> 
+          <div className="project-image-inner"> 
             <img src={about} alt="Project-img" />
           </div>
         </div>
-        <div className="project-content"> {/* Updated class name */}
+        <div className="project-content"> 
           <p>
           Kaushal Parikshan is a digital assessment platform which enables the candidates from the skill
 development and education ecosystem to assess their personality type as per their Aptitude,
@@ -52,14 +51,14 @@ Department of Industries, Himachal Pradesh, respectively.
               </p>
             </>
           )}
-          <div className="project-expand-button"> {/* Updated class name */}
+          <div className="project-expand-button"> 
             <button onClick={toggleExpand}>
               {expanded ? "Read Less" : "Read More"}
             </button>
           </div>
         </div>
       </div>
-      <div className='project-lastp'> {/* Updated class name */}
+      <div className='project-lastp'> 
         <h2>Objectives are:</h2>
         <ul>
           <li>To assess the personality type of candidates by using AI-powered algorithms and

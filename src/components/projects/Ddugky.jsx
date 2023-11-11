@@ -14,16 +14,15 @@ const Project = () => {
   return (
     <>
     <Back title='Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDUGKY)' />
-    <section id='Project'> {/* Updated section id */}
-      {/* <h2 className='project-title'>Deen Dayal Upadhyaya Grameen Kaushalya Yojana</h2> */}
+    <section id='Project'> 
 
-      <div className="project-container"> {/* Updated container class */}
-        <div className="project-image"> {/* Updated class name */}
-          <div className="project-image-inner"> {/* Added a new div for hover effect */}
+      <div className="project-container"> 
+        <div className="project-image"> 
+          <div className="project-image-inner"> 
             <img src={about} alt="Project-img" />
           </div>
         </div>
-        <div className="project-content"> {/* Updated class name */}
+        <div className="project-content"> 
           <p>
             Empowering rural youth to become financially self-sufficient and internationally competitive professionals. DDU-GKY, short for Deen Dayal Upadhyaya Grameen Kaushalya Yojana, is a government initiative aimed at empowering economically disadvantaged rural youth by providing them with skill development and employment opportunities. This program is part of the broader efforts by the Ministry of Rural Development, Government of India, to enhance rural livelihoods and reduce poverty, falling under the National Rural Livelihood Mission (NRLM), also known as Aajeevika.
           </p>
@@ -40,21 +39,21 @@ const Project = () => {
               </p>
             </>
           )}
-          <div className="project-expand-button"> {/* Updated class name */}
+          <div className="project-expand-button"> 
             <button onClick={toggleExpand}>
               {expanded ? "Read Less" : "Read More"}
             </button>
           </div>
         </div>
       </div>
-      <div className='project-lastp'> {/* Updated class name */}
+      <div className='project-lastp'> 
         <h2>Projects Under DDU-GKY Scheme:</h2>
         <ul>
           <li>MPSRLM (MP)</li>
           <li>ASRLM (ASSAM)</li>
           <li>HSRLM (HARYANA)</li>
           <li>KUDUMBASHREE (KERALA)</li>
-          {/* Add more projects as needed */}
+          
         </ul>
         <p style={{ marginBottom: '15px' }}>
         DDU-GKY originated from the Aajeevika Skills program and the 'Special Projects' segment of the Swarnjayanti Gram Swarozgar Yojana (SGSY). The program is tailored to meet the vocational aspirations of rural youth, equipping them with skills that make them suitable for wage employment.
