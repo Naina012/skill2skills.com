@@ -94,7 +94,7 @@
   transform: translate3d(0, 0, 0);
 }
 
-#hero .carousell-control-next-icon,
+/* #hero .carousell-control-next-icon,
 #hero .carousell-control-prev-icon {
   background: none;
   font-size: 30px;
@@ -110,13 +110,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-#hero .carousell-control-next-icon:hover,
+/* #hero .carousell-control-next-icon:hover,
 #hero .carousell-control-prev-icon:hover {
   background: rgba(20, 17, 17, 0.6);
   color: rgba(19, 17, 17, 0.8);
-}
+} */
 
 /* Add these styles to your CSS file or style block */
 

@@ -13,7 +13,7 @@ const Gallery = () => {
   return (
     <>
       <Back title="Gallery" />
-      <section className="gallery padding">
+      <section className="gallery">
         <div className="container">
           <div className="category-buttons">
             <button

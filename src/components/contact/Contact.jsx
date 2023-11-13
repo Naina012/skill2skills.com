@@ -19,7 +19,7 @@ const Contact = () => {
       <Back title='Contact us' />
       <section className='contacts'>
         <div className='contact-container shadow flexSB'>
-          <div className='left row'>
+          <div className='contact-left row'>
           <iframe
   title="Location Map"
   src="https://www.google.com.qa/maps/d/u/0/embed?mid=1cvYRJJeArlVnU73-Dt_TySQuUICs2Lo&ehbc=2E312F&noprof=1"

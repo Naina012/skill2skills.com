@@ -3,7 +3,7 @@ import Heading from "../heading/Heading"
 import "./about.css"
 import { homeAbout } from "../../dummydata"
 import Awrapper from "./Awrapper"
-import Services from "../allservices/Services"
+import Hservices from "../home/Hservices"
 import Testimonal from "../home/Testimonal"
 import aboutus from "../../assets/images/aboutuss.webp"
 const AboutCard = () => {
@@ -35,7 +35,7 @@ const AboutCard = () => {
         </div>
       </section>
       <Awrapper />
-      <Services/>
+      <Hservices/>
       <Testimonal/>
     </>
   )
