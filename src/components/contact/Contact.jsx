@@ -18,7 +18,7 @@ const Contact = () => {
     <>
       <Back title='Contact us' />
       <section className='contacts'>
-        <div className='container shadow flexSB'>
+        <div className='contact-container shadow flexSB'>
           <div className='left row'>
           <iframe
   title="Location Map"
@@ -28,20 +28,20 @@ const Contact = () => {
 ></iframe>
           </div>
           
-          <div className='right row'>
+          <div className='contact-right row'>
             <h1>Contact us</h1>
             <p>We're open for any suggestion or just to have a chat</p>
 
-            <div className='items grid2'>
-              <div className='box'>
+            <div className='contact-items grid2'>
+              <div className='contact-box'>
                 <h4>ADDRESS:</h4>
                 <p>6th Floor, Dibon Building, Plot no. ITC 2, IT Park, Sector 67, Mohali, Punjab</p>
               </div>
-              <div className='box'>
+              <div className='contact-box'>
                 <h4 className="mail">EMAIL:</h4>
                 <p className="mail">info@skill2skills.com</p>
               </div>
-              <div className='box'>
+              <div className='contact-box'>
                 <h4>PHONE:</h4>
                 <p> +91-7710444754</p>
                 <p> +91 87701 35199</p>

@@ -3,7 +3,7 @@ import React from "react"
 
 import HAbout from "./HAbout"
 import Hero from "./Hero"
-
+import Services from "./Hservices"
 import Testimonials from "./Testimonal"
 import Awrapper from "../about/Awrapper"
 import BuildTools from "./BuildTools/BuildTools"
@@ -18,6 +18,7 @@ const Home = () => {
       <About/>
      
       <HAbout />
+      <Services/>
       
 
       <Testimonials />
