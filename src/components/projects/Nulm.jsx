@@ -15,20 +15,21 @@ const Nulm = () => {
     <>
     <Back title='National Urban Livelihood Missionnpm start (NULM)
     ' />
-    <section id='Project'> 
-      <div className="project-container"> 
-        <div className="project-image"> 
-          <div className="project-image-inner"> 
-          <img src={about} alt="Project-img" />
-
+    <section id='Project' className="project-section">
+        {/* Project container */}
+        <div className='project-container'>
+          {/* Project image */}
+          <div className='project-image'>
+            <div className='project-image-inner'>
+              <img src={about} alt='Project-img' />
+            </div>
           </div>
-        </div>
-        <div className="project-content"> 
+          {/* Project content */}
+          <div className='project-content'>
           <p>
           The Employment through Skills Training & Placement (EST&P) Component, part of the National Urban Livelihood Mission (NULM), is strategically designed to cater to the needs of unskilled urban residents while also enhancing the capabilities of those with existing skills. 
           </p>
-          {expanded && (
-            <>
+         
               <p>
               The overarching objectives of the Employment through Skills Training & Placement (EST&P) Program are
 to endow urban underprivileged individuals with valuable skills, providing them with a sustainable means of livelihood and to foster inclusive economic growth by empowering skilled urban residents to make a more substantial contribution to the national economy.
@@ -40,13 +41,7 @@ to endow urban underprivileged individuals with valuable skills, providing them 
               <p>
               This program's core purpose is to offer skill development training to urban individuals, enabling them to establish their businesses and secure jobs in the private sector. The EST&P Program bridges the gap between market demands and the availability of local skills by delivering tailored training programs.
               </p>
-            </>
-          )}
-          <div className="project-expand-button"> 
-            <button onClick={toggleExpand}>
-              {expanded ? "Read Less" : "Read More"}
-            </button>
-          </div>
+           
         </div>
       </div>
       <div className='project-lastp'> 
@@ -65,7 +60,7 @@ to endow urban underprivileged individuals with valuable skills, providing them 
         <p>
         It elevate the income levels of urban residents through structured, market-oriented certification courses that open doors to both salaried employment and self-employment opportunities. This upward mobility ultimately results in an improved quality of life and the gradual alleviation of urban poverty.
 </p>
-        <a href="https://nulm.gov.in/" target="_blank" rel="noopener noreferrer">
+        <a href="https://nulm.gov.in/" target="_blank" rel="noopener noreferrer" className='bttn'>
           Visit Website
         </a>
       </div>

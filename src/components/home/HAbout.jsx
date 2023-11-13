@@ -1,6 +1,9 @@
 
 
 
+import "aos/dist/aos.css";
+
+
 import React, { Component } from "react";
 import {
   VerticalTimeline,
@@ -14,8 +17,9 @@ class Experience extends Component {
   renderExperienceTimeline(experienceData) {
     return experienceData.map((item, i) => {
       return (
+        
         <VerticalTimelineElement
-          className={`vertical-timeline-element--work fade-${item.animationDirection}`}
+          className={`vertical-timeline-element--work fade-${item.animationDirection} vertical-timeline-element--blue-line`}
           date={item.date}
           iconStyle={{
             background: "#478ac9",

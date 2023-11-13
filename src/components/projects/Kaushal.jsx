@@ -5,24 +5,21 @@ import Back from "../back/Back"
 
 
 const Kaushal = () => {
-  const [expanded, setExpanded] = useState(false);
-
-  const toggleExpand = () => {
-    setExpanded(!expanded);
-  };
-
+  
   return (
     <>
     <Back title='Kaushal Parikshan' />
-    <section id='Project'> 
-
-      <div className="project-container"> 
-        <div className="project-image"> 
-          <div className="project-image-inner"> 
-            <img src={about} alt="Project-img" />
+    <section id='Project' className="project-section">
+        {/* Project container */}
+        <div className='project-container'>
+          {/* Project image */}
+          <div className='project-image'>
+            <div className='project-image-inner'>
+              <img src={about} alt='Project-img' />
+            </div>
           </div>
-        </div>
-        <div className="project-content"> 
+          {/* Project content */}
+          <div className='project-content'>
           <p>
           Kaushal Parikshan is a digital assessment platform which enables the candidates from the skill
 development and education ecosystem to assess their personality type as per their Aptitude,
@@ -30,8 +27,7 @@ Knowledge, Skill, and Psychometry. Our AI-powered algorithms and compute Machine
 mechanism provide suitable career guidance to the aspirants by mapping their profile with
 befitting job roles.
           </p>
-          {expanded && (
-            <>
+          
               <p>
               This ERP platform also provides a wide variety of formative internal assessments to track the
 learning outcome of the candidates enrolled in a vocational course. Our assessments are full of
@@ -49,13 +45,8 @@ program of a prestigious national level incubator named IIT Mandi-Catalyst.
 education, which has been funded by the Ministry of Commerce and Industries, GOI and
 Department of Industries, Himachal Pradesh, respectively.
               </p>
-            </>
-          )}
-          <div className="project-expand-button"> 
-            <button onClick={toggleExpand}>
-              {expanded ? "Read Less" : "Read More"}
-            </button>
-          </div>
+            
+         
         </div>
       </div>
       <div className='project-lastp'> 
@@ -79,7 +70,7 @@ job roles.
         {/* <p>
         The Ministry of Rural Development has issued comprehensive Guidelines and Standard Operating Procedures (SOP) for the program's execution. All personnel involved in DDU-GKY projects must undergo training, assessment, and certification in adherence to these SOPs. This e-learning platform is designed to facilitate self-paced learning of the SOPs and certification.
         </p> */}
-        <a href="https://kaushalparikshan.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://kaushalparikshan.com/" target="_blank" rel="noopener noreferrer" className='bttn'>
           Visit Website
         </a>
       </div>

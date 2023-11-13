@@ -1,7 +1,9 @@
+/* back.css */
+
 .back {
   background-size: cover;
   background-attachment: fixed;
-  position: relative; 
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -15,58 +17,51 @@
   font-weight: 400;
   text-decoration: solid;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 0; 
+  margin: 0;
+  padding-left: 0;
 }
 
 .back h2 {
   font-weight: 500;
   font-size: 17px;
   text-transform: uppercase;
-  margin: 10px 0; 
+  margin: 10px 0;
 }
 
-
-
-@media screen and (max-width: 480px) {
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
   .back {
-    padding-top: 50%;
-    height: 30vh;
-    text-align: right;
+    padding-top: 40%;
+    height: 20vh;
   }
+
   .back h1 {
-    display: block; 
-    position: absolute;
-    /* top: 10px;
-    right: 10px;
-    z-index: 1; */
-    font-size: 20px;
-    text-align: right;
+    font-size: 25px;
   }
-  
+
   .back h2 {
-    display: none; 
-    
+    font-size: 12px;
   }
+
 }
 
-@media screen and (max-width: 760px) {
+@media (max-width: 480px) {
   .back {
-    padding-top: 50%;
-    height: 30vh;
-    text-align:right;
+    padding-top: 40%;
+    height: 20vh;
   }
-  .back h1{
-    display: block; 
-    position: absolute;
-    /* top: 10px; */
-    /* right: 10px; */
-    /* z-index: 1; */
-    font-size: 30px;
-    text-align:right;
-  }
-  .back h2 {
-    display: none;
 
+  .back h1 {
+    font-size: 25px;
+  }
+
+  .back h2 {
+    font-size: 12px;
   }
 }
 
+/* Make image responsive */
+.back img {
+  max-width: 100%;
+  height: auto;
+}

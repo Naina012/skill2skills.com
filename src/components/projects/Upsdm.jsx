@@ -14,21 +14,21 @@ const Upsdm = () => {
   return (
     <>
     <Back title='Uttar Pradesh Skill Development Mission (UPSDM)' />
-    <section id='Project'> 
-      
-
-      <div className="project-container"> 
-        <div className="project-image"> 
-          <div className="project-image-inner"> 
-            <img src={about} alt="Project-img" />
+    <section id='Project' className="project-section">
+        {/* Project container */}
+        <div className='project-container'>
+          {/* Project image */}
+          <div className='project-image'>
+            <div className='project-image-inner'>
+              <img src={about} alt='Project-img' />
+            </div>
           </div>
-        </div>
-        <div className="project-content"> 
+          {/* Project content */}
+          <div className='project-content'>
           <p>
           In 2009, India launched a National Skill Development Policy with the ambitious objective of equipping 500 million individuals with essential skills by the year 2022. Uttar Pradesh, as part of this national initiative, has set its sights on imparting employable skills to more than 4 million young people by the culmination of the 12th Five Year Plan
           </p>
-          {expanded && (
-            <>
+         
               <p>
               To turn this vision into reality and ensure that the youth of Uttar Pradesh receive the necessary skills to enhance their employability, the state has established the Uttar Pradesh Skill Development Mission (UPSDM). Drawing inspiration from the experiences of other states, the Government of Uttar Pradesh has crafted a distinctive framework for UPSDM.
               </p>
@@ -38,13 +38,7 @@ const Upsdm = () => {
               <p>
                 All personnel involved in DDU-GKY projects must undergo training, assessment, and certification in adherence to these SOPs. This e-learning platform is designed to facilitate self-paced learning of the SOPs and certification.
               </p> */}
-            </>
-          )}
-          <div className="project-expand-button"> {/* Updated class name */}
-            <button onClick={toggleExpand}>
-              {expanded ? "Read Less" : "Read More"}
-            </button>
-          </div>
+           
         </div>
       </div>
       <div className='project-lastp'> {/* Updated class name */}
@@ -68,7 +62,7 @@ const Upsdm = () => {
 
 
         </p>
-        <a href="https://www.upsdm.gov.in/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.upsdm.gov.in/" target="_blank" rel="noopener noreferrer" className='bttn'>
           Visit Website
         </a>
       </div>

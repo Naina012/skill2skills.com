@@ -17,7 +17,7 @@ const Contact = () => {
   return (
     <>
       <Back title='Contact us' />
-      <section className='contacts padding'>
+      <section className='contacts'>
         <div className='container shadow flexSB'>
           <div className='left row'>
           <iframe
@@ -38,8 +38,8 @@ const Contact = () => {
                 <p>6th Floor, Dibon Building, Plot no. ITC 2, IT Park, Sector 67, Mohali, Punjab</p>
               </div>
               <div className='box'>
-                <h4>EMAIL:</h4>
-                <p>info@skill2skills.com</p>
+                <h4 className="mail">EMAIL:</h4>
+                <p className="mail">info@skill2skills.com</p>
               </div>
               <div className='box'>
                 <h4>PHONE:</h4>

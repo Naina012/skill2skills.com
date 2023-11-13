@@ -1,96 +1,71 @@
+/* project.css */
 
-
+/* General styles */
 #Project {
-    /* padding: 40px 0; */
-    padding-top:0% ;
+  margin: 0px;
+  padding: 0;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 1200px; /* Adjust the max-width as needed */
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+}
+
+.project-content {
+  max-width: 1200px; /* Adjust the max-width as needed */
+}
+
+/* Expand button */
+.project-expand-button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Projects list */
+.project-lastp {
+  max-width: 1400px; /* Adjust the max-width as needed */
+  margin: 20px auto;
+}
+
+/* project.css */
+
+/* Add a media query for responsiveness */
+@media (max-width: 768px) {
+  .project-section {
+    flex-direction: column;
   }
-  
+
   .project-container {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    background-color: #f5f5f5;
-    max-width: 1300px;
-    margin: 0 auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    overflow: hidden; 
-    /* padding-top: 90px;To prevent image overflow */
+    width: 100%;
   }
-  
+
   .project-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-    
+    margin-bottom: 20px;
   }
-  
-  .project-image-inner {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-  }
-  
-  .project-image-inner:hover {
-    transform: scale(1.1);
-  }
-  
+
   .project-content {
-    flex: 1;
-    padding: 20px;
+    width: 100%;
   }
-  
-  .project-content p {
-    margin-bottom: 15px;
-    line-height: 1.6;
-  }
-  
-  .project-expand-button {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .project-expand-button button {
-    background-color: #478ac9;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .project-expand-button button:hover {
-    background-color: #0066d4;
-  }
-  
-  .project-lastp {
-    margin-top: 40px;
-    text-align: center;
-    font-size: 18px; 
-    line-height: 1.6;
-  }
-  
-  .project-title {
-    text-align: center;
-    font-family: 'Caveat', cursive;
-    text-decoration: underline;
-    margin-top: -14px;
-  }
-  
- 
-  .project-lastp a {
-    display: inline-block; 
-    margin-top: 20px;
-    color: #478ac9;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .project-lastp a:hover {
-    color: #0066d4;
-  }
-  
+
+}
+
+.bttn{
+  display: flex;
+  justify-content: center;
+}
+
+/* project.css */
+
+
+

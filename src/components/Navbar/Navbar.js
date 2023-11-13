@@ -18,13 +18,14 @@ function Navbar() {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          SKILL2SKILLS
-          <img
+        <img
             src={logo}
             alt="Logo"
             className="logo-image"
             style={{ width: '80px', height: '60px', marginBottom: '20px' }}
           />
+          <span>SKILL2SKILLS</span>
+          
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

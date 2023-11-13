@@ -138,9 +138,41 @@
   .navbar-logo {
     position: absolute;
     top: 0;
-    left: 0;
-    transform: translate(30%, 5%);
+    left:-85px !important;
+
+    /* transform: translate(50%, -0%); */
   }
+  
+
+  
+}
+
+.dropdown-links:hover{
+  background-color: #ffffff;
+ text-decoration: none;
+}
+
+.item.cName{
+  color: #fff;
+
+}
+
+@media screen and (max-width: 450px) {
+ 
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left:-70px !important;
+    font-size: 1rem !important;
+    /* transform: translate(50%, -0%); */
+  }
+  .navbar-logo span {
+    
+    font-size: 0.8rem !important;
+    /* transform: translate(50%, -0%); */
+  }
+  
 
   
 }
